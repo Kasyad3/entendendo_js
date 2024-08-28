@@ -64,6 +64,9 @@ switch (OpEscolhida) {
     rna1 = ra1 ** (1/ra2)
     mensagem = "Resultado: " + rna1
     break
+
+    default:
+        mensagem = ("Erro na operação.")
 }
 
 
