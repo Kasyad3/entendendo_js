@@ -1,6 +1,14 @@
-num = parseInt(prompt("Informe um número para ser gerado a tabuada."));
+let pao = 0
 
-    for (let t1 = 1; t1 <= 10; t1++) {
+ValorPao = parseFloat(prompt("Informe o valor dos pães para gerar a tabela."));
+let mensagem = ""
+    for (let pao = 1; pao <= 50; pao++)
+        {
+        
+            let CalDoPao = pao * ValorPao 
+        
+            mensagem = mensagem + pao + "=" + CalDoPao.toFixed(2) + "<br>"
 
-        //"\n é um caractere de quebra de linha"
-        mensagem = mensagem + num + "x" + t1 + "=" + (resultado = num * t1) + "\n";}
+    }
+    document.write(mensagem)
+        
